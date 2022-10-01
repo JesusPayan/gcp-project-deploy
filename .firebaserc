@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "angular-deploy-test-6e024"
+  },
+  "targets": {
+    "angular-deploy-test-6e024": {
+      "hosting": {
+        "deploy-gcp-test": [
+          "angular-deploy-test-6e024"
+        ]
+      }
+    }
+  }
+}

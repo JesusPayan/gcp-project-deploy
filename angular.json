@@ -94,6 +94,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "deploy-gcp-test:build:production",
+            "firebaseProject": "angular-deploy-test-6e024",
+            "firebaseHostingSite": "angular-deploy-test-6e024"
+          }
         }
       }
     }
